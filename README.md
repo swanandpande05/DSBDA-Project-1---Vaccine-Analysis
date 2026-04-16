@@ -48,8 +48,11 @@ Compare state-wise vaccination performance
 Study gender-based vaccination distribution
 Build a beginner-friendly data analytics project
 📸 Screenshots
+![Screenshot 1](SS1.png)
 
-Add your Streamlit app screenshots here
+![Screenshot 2](SS2.png)
+
+![Screenshot 3](SS3.png)
 
 🔮 Future Improvements
 Add filters (state, date range)
