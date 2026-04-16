@@ -36,17 +36,20 @@ cd covid-vaccine-analyzer
 pip install pandas numpy matplotlib streamlit
 3. Run the application
 streamlit run app.py
+
 📊 How It Works
 Dataset is loaded and cleaned using Pandas
 Data is grouped state-wise for analysis
 Cumulative values are used for accurate totals
 Results are displayed using charts and tables
 Streamlit provides an interactive UI
+
 🎯 Objectives
 Analyze COVID-19 vaccination progress in India
 Compare state-wise vaccination performance
 Study gender-based vaccination distribution
 Build a beginner-friendly data analytics project
+
 📸 Screenshots
 ![Screenshot 1](SS1.png)
 
@@ -59,9 +62,11 @@ Add filters (state, date range)
 Improve UI design
 Add more advanced visualizations
 Deploy fully on cloud
+
 👨‍💻 Author
 
 Swanand Pande
+
 📜 License
 
 This project is for educational purposes.
