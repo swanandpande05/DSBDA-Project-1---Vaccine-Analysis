@@ -61,8 +61,7 @@ Add more advanced visualizations
 Deploy fully on cloud
 👨‍💻 Author
 
-Your Name
-
+Swanand Pande
 📜 License
 
 This project is for educational purposes.
