@@ -1,47 +1,65 @@
 # DSBDA-Project-1---Vaccine-Analysis
-📊 COVID-19 Vaccination Analysis (India)
+📊 COVID-19 Vaccination Analyzer (India)
+📌 Overview
 
-This project analyzes COVID-19 vaccination data across different states in India using the covid_vaccine_statewise.csv dataset from Kaggle. It focuses on understanding vaccination trends, state-wise distribution, and gender-based insights using Python.
+The COVID-19 Vaccination Analyzer is a data analysis project that explores vaccination trends across different states in India. It uses real-world data to provide insights into first dose, second dose, and gender-wise vaccination distribution. The project also includes a Streamlit-based web application for interactive visualization.
 
 🚀 Features
-📍 State-wise First Dose Vaccination Analysis
-📍 State-wise Second Dose Vaccination Analysis
-👨 Total Male Vaccination Count
-👩 Total Female Vaccination Count
-📊 Basic Data Visualization using Matplotlib
-🌐 Interactive Web App using Streamlit
-🛠️ Technologies Used
-Python
-Pandas
-Matplotlib
-Streamlit
-📁 Dataset
-Source: Kaggle COVID-19 in India Dataset
-⚙️ Installation & Setup
-1. Clone the repository
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
-2. Create virtual environment (optional)
-python -m venv venv
-.\venv\Scripts\Activate
-3. Install dependencies
-pip install -r requirements.txt
-▶️ Run the Project
-Run Python script
-python vaccine_analysis.py
-Run Streamlit App
-streamlit run app.py
-📊 Project Structure
+
+📍 State-wise First Dose Analysis
+📍 State-wise Second Dose Analysis
+👨 Male Vaccination Insights
+👩 Female Vaccination Insights
+📊 Data Visualization using charts
+🌐 Interactive dashboard using Streamlit
+
+🛠️ Tech Stack
+
+Language: Python
+Libraries: Pandas, NumPy
+Visualization: Matplotlib
+Web App: Streamlit
+
+📂 Project Structure
+CovidVaccineProject/
+│
 ├── app.py
 ├── vaccine_analysis.py
 ├── covid_vaccine_statewise.csv
 ├── requirements.txt
 └── README.md
-💡 Key Insights
-Identifies top states with highest vaccination coverage
-Compares first and second dose distributions
-Highlights gender-based vaccination trends
-🎯 Future Improvements
-Add interactive filters (state/date)
-Improve dashboard UI
-Deploy fully on cloud with custom visuals
+⚙️ Installation & Setup
+1. Clone the repository
+git clone https://github.com/your-username/covid-vaccine-analyzer.git
+cd covid-vaccine-analyzer
+2. Install dependencies
+pip install pandas numpy matplotlib streamlit
+3. Run the application
+streamlit run app.py
+📊 How It Works
+Dataset is loaded and cleaned using Pandas
+Data is grouped state-wise for analysis
+Cumulative values are used for accurate totals
+Results are displayed using charts and tables
+Streamlit provides an interactive UI
+🎯 Objectives
+Analyze COVID-19 vaccination progress in India
+Compare state-wise vaccination performance
+Study gender-based vaccination distribution
+Build a beginner-friendly data analytics project
+📸 Screenshots
+
+Add your Streamlit app screenshots here
+
+🔮 Future Improvements
+Add filters (state, date range)
+Improve UI design
+Add more advanced visualizations
+Deploy fully on cloud
+👨‍💻 Author
+
+Your Name
+
+📜 License
+
+This project is for educational purposes.
